@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Introduction
-Would it be possible to predict the kind of interaction (i.e. positive or negative) that one would have with another, based on his previous interactions? With the use of signed social network data, we thought that this challenge can be met. If this appears to be true, models predicting edge signs might help to better understand the psychology of signed interactions on social media. Matrix factorization could generates individual preference profiles for each user. These profile could be applied in further studies to disentangle the magnitude of effects suggested by theories on status, balance, and embeddedness.
+Would it be possible to predict the kind of interaction (i.e. positive or negative) that one would have with another, based on their previous interactions? With the use of signed social network data, we thought that this challenge can be met. If this appears to be true, models predicting edge signs might help to better understand the psychology of signed interactions on social media. Matrix factorization could generates individual preference profiles for each user. These profile could be applied in further studies to disentangle the magnitude of effects suggested by theories on status, balance, and embeddedness.
 
 # Research Questions
 1. Are signed networks from different social media platforms alike in terms of additional graph-theoretical properties?
@@ -11,7 +11,8 @@ Would it be possible to predict the kind of interaction (i.e. positive or negati
 3. Can we validate the claim made by Leskovec et al. that negative edges tend to connect dense positive clusters?
 4. Is it possible to predict the sign of an edge accurately? What can such a models reveal about the psychology of signed interactions on social media?
 
-
+# The datasets
+The datasets used for this project are the ones used in Leskovec et al., we are considering a similar dataset from this website where the other datasets can be obtained as well. This dataset contains links between subreddits on Reddit. A subreddit is a community on the social media platform Reddit. Links are represented by a sentiment of the source community post towards the target community post, taking value +1 or -1. The signed network can easily be computed from this dataset. This dataset has a number of nodes and edges comparable to the original datasets. Its format is therefore equivalent to the Slashdot and Epinions datasets.
 
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

@@ -16,7 +16,7 @@ The datasets used for this project are the ones used in [Leskovec et al.](https:
 
 # Are signed networks from different social media platforms alike in terms of additional graph-theoretical properties?
 
-<img style="float: right;" src="images/results.jpg"  width="200">
+<img style="right" src="images/results.jpg"  width="500">
 
 To answer this question, we replicated Table 3 of [Leskovec et al.](https://dl.acm.org/doi/10.1145/1753326.1753532). We've found that the Reddit dataset does not follow the same pattern as the other datasets when it comes to triad under- and overrepresentation of certain triad types. Indeed, triads with all-positive edges are underrepresented and all other types are overrepresented. This goes against both structural balance theory and its weaker variant (see original paper by Leskovec et al. for context). One could argue that a subreddit is not a person and thus not subjected to the same rules of social psychology. But it would have been quite plausible that the principle that "the friend of my friend is my friend" applies also to groups. We don't see any particular reason why two groups which are friendly with a third group should not be friendly with one another. Further research is needed to explain this observation.
 

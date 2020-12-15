@@ -12,7 +12,22 @@ Would it be possible to predict the kind of interaction (i.e. positive or negati
 4. Is it possible to predict the sign of an edge accurately? What can such a models reveal about the psychology of signed interactions on social media?
 
 # The datasets
-The datasets used for this project are the ones used in Leskovec et al., we are considering a similar dataset from this website where the other datasets can be obtained as well. This dataset contains links between subreddits on Reddit. A subreddit is a community on the social media platform Reddit. Links are represented by a sentiment of the source community post towards the target community post, taking value +1 or -1. The signed network can easily be computed from this dataset. This dataset has a number of nodes and edges comparable to the original datasets. Its format is therefore equivalent to the Slashdot and Epinions datasets.
+The datasets used for this project are the ones used in [Leskovec et al.](https://dl.acm.org/doi/10.1145/1753326.1753532). They contain signed edges between users of three social medias: Wikipedia, Slashdot and Epinions. In addition, we are considering a similar dataset containing links between subreddits on Reddit. A subreddit is a community on the social media platform Reddit. In all these datasets, links between users are represented by a weight from a source, i.e. the user that is giving their opinion, to a target. The weight of such an edge can take value +1 or -1 (+1 representing a positive link, -1 representing a negative one). 
+
+# Are signed networks from different social media platforms alike in terms of additional graph-theoretical properties?
+To answer this question, we replicated Table 3 of [Leskovec et al.](https://dl.acm.org/doi/10.1145/1753326.1753532). W
+
+                         Epinions
+
+  Triad     │     |Tᵢ| │   p(Tᵢ) │   p₀(Tᵢ) │   s(Tᵢ) │
+╞═══════════╪══════════╪═════════╪══════════╪═════════╡
+│ T₃        │ 11616708 │   0.872 │    0.620 │  1893.7 │
+├───────────┼──────────┼─────────┼──────────┼─────────┤
+│ T₁        │   688557 │   0.052 │    0.055 │   -58.3 │
+├───────────┼──────────┼─────────┼──────────┼─────────┤
+│ T₂        │   924739 │   0.069 │    0.321 │ -1966.4 │
+├───────────┼──────────┼─────────┼──────────┼─────────┤
+│ T₀        │    87668 │   0.007 │    0.003 │   220.4 │
 
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

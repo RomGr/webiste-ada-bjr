@@ -17,18 +17,7 @@ The datasets used for this project are the ones used in [Leskovec et al.](https:
 # Are signed networks from different social media platforms alike in terms of additional graph-theoretical properties?
 To answer this question, we replicated Table 3 of [Leskovec et al.](https://dl.acm.org/doi/10.1145/1753326.1753532). W
 
-                         Epinions
-
-  Triad     │     |Tᵢ| │   p(Tᵢ) │   p₀(Tᵢ) │   s(Tᵢ) │
-╞═══════════╪══════════╪═════════╪══════════╪═════════╡
-│ T₃        │ 11616708 │   0.872 │    0.620 │  1893.7 │
-├───────────┼──────────┼─────────┼──────────┼─────────┤
-│ T₁        │   688557 │   0.052 │    0.055 │   -58.3 │
-├───────────┼──────────┼─────────┼──────────┼─────────┤
-│ T₂        │   924739 │   0.069 │    0.321 │ -1966.4 │
-├───────────┼──────────┼─────────┼──────────┼─────────┤
-│ T₀        │    87668 │   0.007 │    0.003 │   220.4 │
-
+![Replication](https://github.com/RomGr/webiste-ada-bjr/blob/main/images/results.jpg)
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
